@@ -1,4 +1,40 @@
 {
-  "products": [],
-  "users": []
+  "products": [
+    {
+      "title": "3443",
+      "price": "324234",
+      "description": "324234",
+      "category": "2",
+      "id": 1
+    },
+    {
+      "title": "ưegwerre",
+      "price": "ưegwerrewwere",
+      "description": "ưegwerrewwerewrgw",
+      "category": "1",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "email": "1234@gmail.com",
+      "password": "$2a$10$h/BG4W9HvSRFQZEA2m1xluTabUNelxnxAZLAbF0Dwezct9VyN2ODK",
+      "id": 1
+    },
+    {
+      "email": "huyv76984@gmail.com",
+      "password": "$2a$10$/QEnKXDUS/KSMLrtkmdG/.xKaY..TWmW1rQYme9QVit.IM7Afg9d6",
+      "id": 2
+    },
+    {
+      "email": "huyvqph41410@fpt.edu.vn",
+      "password": "$2a$10$NXl1ajeWPqwyg0V1yAJ3eejoKYR6IT9MD0iMMqQsN4r9xGrZOEwES",
+      "id": 3
+    },
+    {
+      "email": "huy@gmail.com",
+      "password": "$2a$10$fpxUwpAdnmhcb/5cK9CpGe5e.DDsNFqjm0R9hDS/Jn.m7aaKhPOy.",
+      "id": 4
+    }
+  ]
 }
