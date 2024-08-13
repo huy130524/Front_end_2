@@ -6,6 +6,7 @@ import Layout from "./Layout/Layout";
 import Add from "./page/Add";
 import List from "./page/List";
 import { Link, useRoutes } from "react-router-dom";
+import Edit from "./page/Edit";
 function App() {
   const routes = useRoutes([
     {
@@ -29,7 +30,7 @@ function App() {
     },
     {
       path:"product/edit/:id",
-      element: <List/>
+      element: <Edit/>
     },
     {
       path:"/product/add",

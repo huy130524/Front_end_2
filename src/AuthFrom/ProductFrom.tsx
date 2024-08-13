@@ -28,7 +28,7 @@ const ProductForm = ({ onSubmit }: ProductProps) => {
                 <div className="mb-3">
                     <label htmlFor="exampleInputtitle1" className="form-label">price </label>
                     <input type="text" className="form-control" id="exampleInputtitle1" aria-describedby="titleHelp"
-                        {...register('price', { required: 'Required', })} />
+                        {...register('price', { required: 'Required', min:{ value:1, message:' gia k duoc am' } })} />
                     {errors.price && (<div id="price" className="form-text">{errors.price.message}</div>)}
                 </div>
 
