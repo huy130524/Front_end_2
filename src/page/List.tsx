@@ -26,7 +26,7 @@ const List = () => {
         <td>{product.description}</td>
         <td>{product.category}</td>
         <td>
-        <button className='btn btn-pre' onClick={() => handleEdit(product.id)}>Edit</button>
+        {/* <button className='btn btn-pre' onClick={() => handleEdit(product.id)}>Edit</button> */}
         <button className='btn btn-danger' onClick={() => handleDelete(product.id)}>Delete</button>
             </td>
     </tr>
