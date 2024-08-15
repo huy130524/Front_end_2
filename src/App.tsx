@@ -10,39 +10,37 @@ import Edit from "./page/Edit";
 function App() {
   const routes = useRoutes([
     {
-      path:"/admin",
-      element: <Layout/>,
-      // children:[
-      //   {
-      //     path:"/add",
-      // element: <Add/>
-      //   }
-      // ]
+      path: "/",
+      element: <Layout />,
+
+      children: [
+        {
+          path: "product/list",
+          element: <List />
+        },
+        {
+          path: "product/edit/:id",
+          element: <Edit />
+        },
+        {
+          path: "/product/add",
+          element: <Add />
+        },
+      ]
+
+    },
+    {
+      path: "register",
+      element: <Regiter />
+    },
     
+    {
+      path: "view",
+      element: <HomePage />
     },
     {
-      path:"register",
-      element: <Regiter/>
-    },
-    {
-      path:"product/list",
-      element: <List/>
-    },
-    {
-      path:"product/edit/:id",
-      element: <Edit/>
-    },
-    {
-      path:"/product/add",
-      element: <Add/>
-    },
-    {
-      path:"",
-      element: <HomePage/>
-    },
-    {
-      path:"login",
-      element: <Login/>
+      path: "login",
+      element: <Login />
     }
   ]);
   return (
