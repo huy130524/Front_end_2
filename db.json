@@ -1,25 +1,21 @@
 {
   "products": [
+  
     {
-      "title": "3443",
-      "price": "324234",
-      "description": "324234",
-      "category": "2",
-      "id": 1
+      "title": "jhuqwqqw",
+      "price": "79.000",
+      "description": "Đẹp trai dsq",
+      "category": "Open this select menu",
+      "ishow": true,
+      "id": 4
     },
     {
-      "title": "ưegwerre",
-      "price": "ưegwerrewwere",
-      "description": "ưegwerrewwerewrgw",
-      "category": "1",
-      "id": 2
-    },
-    {
-      "title": "1212",
-      "price": "130000",
+      "title": "fsgerw",
+      "price": "2233323",
       "description": "Đẹp trai",
-      "category": "1",
-      "id": 3
+      "category": "2",
+      "ishow": false,
+      "id": 5
     }
   ],
   "users": [

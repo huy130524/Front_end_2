@@ -28,7 +28,7 @@ const ProductForm = ({ onSubmit }: ProductProps) => {
                 <div className="mb-3">
                     <label htmlFor="exampleInputtitle1" className="form-label">price </label>
                     <input type="text" className="form-control" id="exampleInputtitle1" aria-describedby="titleHelp"
-                        {...register('price', { required: 'Required', min:{ value:1, message:' gia k duoc am' } })} />
+                        {...register('price', { required: 'Required', min: { value: 1, message: ' gia k duoc am' } })} />
                     {errors.price && (<div id="price" className="form-text">{errors.price.message}</div>)}
                 </div>
 
@@ -40,7 +40,7 @@ const ProductForm = ({ onSubmit }: ProductProps) => {
                 </div>
 
                 <div className="mb-3">
-                <label htmlFor="exampleInputtitle1" className="form-label">category </label>
+                    <label htmlFor="exampleInputtitle1" className="form-label">category </label>
                     <select className="form-select"   {...register('category', { required: 'Required', })} >
                         <option selected>Open this select menu</option>
                         <option value="1">One</option>
@@ -48,10 +48,16 @@ const ProductForm = ({ onSubmit }: ProductProps) => {
                         <option value="3">Three</option>
                     </select>
                 </div>
+                <div className="form-check">
+                    <input type="checkbox" className="form-check-input" id="exampleCheck1"
+                     {...register('ishow', )} />
+                    <label className="form-check-label" htmlFor="exampleCheck1">Ishow</label>
+                </div>
+
                 <button type="submit" className="btn btn-primary">Submit</button>
             </form>
-            
-            </div>
+
+        </div>
     )
 }
 

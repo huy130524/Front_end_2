@@ -4,6 +4,7 @@ export type Products ={
     price: number;
     description: string;
     category: string;
+    ishow: boolean;
 }
 
 export type ProductsInput =  Products;
